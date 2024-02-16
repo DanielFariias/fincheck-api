@@ -7,7 +7,7 @@ import {
   IsString,
   IsUUID,
 } from 'class-validator';
-import { TransactionType } from '../entities/Transaction';
+import { TransactionType } from '../entities/transaction';
 
 export class CreateTransactionDto {
   @IsString()
