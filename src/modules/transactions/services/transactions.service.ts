@@ -5,7 +5,7 @@ import { ValidateBankAccountOwnershipService } from 'src/modules/bank-accounts/s
 import { ValidateCategoryOwnershipService } from 'src/modules/categories/services/validate-category-ownership.service';
 import { UpdateTransactionDto } from '../dto/update-transaction.dto';
 import { ValidateTransactionOwnershipService } from './validate-transaction-ownership.service';
-import { TransactionType } from '../entities/Transaction';
+import { TransactionType } from '../entities/transaction';
 
 @Injectable()
 export class TransactionsService {

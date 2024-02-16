@@ -18,7 +18,7 @@ import { CreateTransactionDto } from './dto/create-transaction.dto';
 import { UpdateTransactionDto } from './dto/update-transaction.dto';
 import { OptionalParseUUIDPipe } from 'src/shared/pipes/optional-parse-uuid-pipe';
 import { OptionalParseEnumPipe } from 'src/shared/pipes/optional-parse-enum-pipe';
-import { TransactionType } from './entities/Transaction';
+import { TransactionType } from './entities/transaction';
 
 @Controller('transactions')
 export class TransactionsController {
