@@ -6,7 +6,7 @@
       "use": "@now/node-server"
     }
   ],
-  "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
+  "routes":  [
+    {"src": "/(.*)", "dest": "/"}
   ]
 }
