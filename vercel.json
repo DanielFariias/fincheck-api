@@ -1,5 +1,5 @@
 {
   "functions": {
-    "dist/index.ts": "@vercel/node"
+    "dist/index.js": "@vercel/node"
   }
 }
